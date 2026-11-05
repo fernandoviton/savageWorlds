@@ -1,0 +1,11 @@
+# Savage Worlds Character Manager Requirements
+# Core dependencies
+pydantic>=2.0.0      # Data validation and serialization
+click>=8.0.0         # Command line interface
+rich>=13.0.0         # Rich text and beautiful formatting for CLI
+typing-extensions>=4.0.0  # Enhanced type hints
+
+# Optional dependencies for enhanced features
+# dataclasses-json>=0.6.0  # JSON serialization for dataclasses (if not using pydantic)
+# tkinter (built-in)       # For GUI option
+# pytest>=7.0.0           # For testing (development)
